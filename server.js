@@ -13,6 +13,13 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/api/config", (req, res) => {
+  res.json({
+    application: process.env.APP_NAME || "Unknown Application",
+    environment: process.env.NODE_ENV || "development"
+  });
+});
+
 // Health check
 app.get("/health", (req, res) => {
   res.json({
