@@ -1,0 +1,27 @@
+{
+  "name": "render-practice-api",
+  "version": "1.0.0",
+  "description": "A beginner Express API deployed using Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prncy/render-practice-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prncy/render-practice-api/issues"
+  },
+  "homepage": "https://github.com/Prncy/render-practice-api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
